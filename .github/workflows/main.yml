@@ -34,7 +34,7 @@ jobs:
     uses: vaibhavrathod-1/reusable-workflow/.github/workflows/main.yml@main
     with:
       image_name: my-app
-      tag: $GITHUB_RUN_NUMBER
+      tag: latest
     secrets:
       registry_username: ${{secrets.REGISTRY_USERNAME}}
       registry_password: ${{secrets.REGISTRY_PASSWORD}}
