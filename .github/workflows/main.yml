@@ -36,7 +36,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
   docker:
-    uses: vaibhavrathod-1/reusable-workflow/main/.github/workflows/main.yml@main
+    uses: vaibhavrathod-1/reusable-workflow/.github/workflows/main.yml@main
     with:
       image_name: my-app
       tag: $GITHUB_RUN_NUMBER
